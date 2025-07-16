@@ -51,7 +51,7 @@ func main() {
 
 	modelId := "anthropic.claude-v2"
 
-	prompt := "¿Cuál es la capital de Francia?"
+	prompt := "what is the capital of France?"
 
 	// Anthropic Claude requires you to enclose the prompt as follows:
 	prefix := "Human: "
